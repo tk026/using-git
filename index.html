@@ -5,50 +5,56 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
   <title>Git walk-through</title>
-  <link rel="stylesheet" type="text/css" href="main.css">
 
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-  <h1>How to use git</h1>
+  <div class="container">
+    <h1 class="fancy-heading">How to use git</h1>
 
-  <ol>
-    <li>
-      Create a free account on <a href="https://github.com" target="_blank">github.com</a>
-    </li>
-    <li>
-      Initialise a Github repository - The easiest way to do this is on <a href="https://github.com" target="_blank">github.com</a> by clicking "New repository"
-    </li>
-    <li>
-      Once created click "Set up in Desktop", this will ask to to confirm opening <a href="https://desktop.github.com/">Github desktop</a> which you will need to have installed.
-    </li>
-    <li>
-      After selecting a local location git will pull down all the files from Github's servers.
-    </li>
-    <li>
-      You are now free to start writing code and adding files!
-    </li>
-    <li>
-      Once you have made some changes and want to store them, it's time to create a commit. A commit is essentially a snapshot of your project at the time. It can be used if you ever need to come back to a point in time of your project.
-    </li>
-    <li>
-      To create a commit, under the "Changes" tab in Github desktop, add a message to identify the changes you have made as well as an optional description with further details. Then click the "Commit" button below to create the commit.
-    </li>
-    <li>
-      You can now refer to the "History" tab which will include a list of all commits and files changed with each.
-    </li>
-    <li>
-      If you include configuration files with important secretive data make sure you don't add these to your repository as they will be in your history forever. This is where telling git to ignore certain files comes in handy. Create a ".gitignore" file with a list of files or folders you don't want git to track.
-    </li>
-    <li>
-      Branching is a core concept in Git, and the entire GitHub Flow is based upon it. There's only one rule: anything in the master branch is always deployable.
-      Because of this, it's extremely important that your new branch is created off of master when working on a feature or a fix.
-    </li>
-    <li>
-      To create a branch click on the "Add branch" button in Github desktop. Your branch name should be descriptive (e.g. add-footer-styling), so that others can see what is being worked on.
-    </li>
-    <li>
-      Once created you will automatically be switched to the branch where you can continue to add, change and delete files and then commit. You are now on an alternative time line and can switch between each and the project will change accordingly.
-    </li>
-  </ol>
+    <ol class="list-group">
+      <li class="list-group-item">
+        Create a free account on <a href="https://github.com" target="_blank">github.com</a>
+      </li>
+      <li class="list-group-item">
+        Initialise a Github repository - The easiest way to do this is on <a href="https://github.com" target="_blank">github.com</a> by clicking "New repository"
+      </li>
+      <li class="list-group-item">
+        Once created click "Set up in Desktop", this will ask to to confirm opening <a href="https://desktop.github.com/">Github desktop</a> which you will need to have installed.
+      </li>
+      <li class="list-group-item">
+        After selecting a local location git will pull down all the files from Github's servers.
+      </li>
+      <li class="list-group-item">
+        You are now free to start writing code and adding files!
+      </li>
+      <li class="list-group-item">
+        Once you have made some changes and want to store them, it's time to create a commit. A commit is essentially a snapshot of your project at the time. It can be used if you ever need to come back to a point in time of your project.
+      </li>
+      <li class="list-group-item">
+        To create a commit, under the "Changes" tab in Github desktop, add a message to identify the changes you have made as well as an optional description with further details. Then click the "Commit" button below to create the commit.
+      </li>
+      <li class="list-group-item">
+        You can now refer to the "History" tab which will include a list of all commits and files changed with each.
+      </li>
+      <li class="list-group-item">
+        If you include configuration files with important secretive data make sure you don't add these to your repository as they will be in your history forever. This is where telling git to ignore certain files comes in handy. Create a ".gitignore" file with a list of files or folders you don't want git to track.
+      </li>
+      <li class="list-group-item">
+        Branching is a core concept in Git, and the entire GitHub Flow is based upon it. There's only one rule: anything in the master branch is always deployable.
+        Because of this, it's extremely important that your new branch is created off of master when working on a feature or a fix.
+      </li>
+      <li class="list-group-item">
+        To create a branch click on the "Add branch" button in Github desktop. Your branch name should be descriptive (e.g. add-footer-styling), so that others can see what is being worked on.
+      </li>
+      <li class="list-group-item">
+        Once created you will automatically be switched to the branch where you can continue to add, change and delete files and then commit. You are now on an alternative time line and can switch between each and the project will change accordingly.
+      </li>
+    </ol>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
